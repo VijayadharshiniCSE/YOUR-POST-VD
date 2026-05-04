@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background:black;
+  padding: 40px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  color: white;
+}
+
+.login-box h1 span {
+  color: hotpink;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid hotpink;
+  background: black;
+  color: white;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: hotpink;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.signup-text span {
+  color: hotpink;
+  cursor: pointer;
+}

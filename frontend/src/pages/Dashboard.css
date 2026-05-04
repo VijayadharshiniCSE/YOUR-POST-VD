@@ -1,0 +1,26 @@
+.dashboard {
+  background: black;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.post-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
